@@ -200,3 +200,7 @@ let numPennies = prompt("How many pennies do you have?");
 let totalCoins = countCoins(numQuarters, numDimes, numNickels, numPennies)
 
 console.log("The amount you have in coins is " + totalCoins.toFixed(2));
+
+/* This code was created to help users find their total amount of money given the change they have in their pockets.
+   It automates the calculations for the users and all the input required is counting how many of each coin the user has.
+*/
